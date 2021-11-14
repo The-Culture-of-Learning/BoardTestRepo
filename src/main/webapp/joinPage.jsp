@@ -58,7 +58,7 @@
 	ID : <input type="text" name="id" id="id"> 
 	<button type="button">중복체크</button>
 	</br>
-	PW : <input type="password" name="pw" id="pw"> </br>
+	PW : <input type="password" name="pass" id="pw"> </br>
 	PW 확인 : <input type="password" name="pwCheck" id="pwCheck"> </br>
 	이름 : <input type="text" name="name" id="name" maxlength="5"> </br>
 	<button type="submit" onclick="inValidValueCheck();">회원가입</button>

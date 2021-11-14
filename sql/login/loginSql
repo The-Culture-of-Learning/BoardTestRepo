@@ -5,5 +5,5 @@ create table member (
     join_date datetime
 );
 
-INSERT INTO MEMBER (id, pass, name, join_date, admin)
-VALUES ('admin', 111, 'admin', now(), 1);
+INSERT INTO MEMBER (id, pass, name, join_date)
+VALUES ('admin', 111, 'admin', now());

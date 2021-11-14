@@ -19,9 +19,8 @@ public class LoginUrlController {
 		return "index";
 	}
 
-
-	@RequestMapping(value = "loginPage.do", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-	public String login(@RequestBody Member member) {
+	@RequestMapping(value = "loginPage.do")
+	public String login(Member member) {
 		logger.info("member : {}", member);
 		return "mainPage";
 	}

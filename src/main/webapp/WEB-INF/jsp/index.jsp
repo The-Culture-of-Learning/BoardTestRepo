@@ -9,7 +9,7 @@
 <body>
 <form action="loginPage.do" method="post" >
 	ID :  <input name="id" type="text"> </br>
-	PW :  <input name="pw" type="password"> </br>	
+	PW :  <input name="pass" type="password"> </br>
 	<button type="submit" value="">로그인</button>
 </form>
 <a href="joinPage.jsp"><button>회원가입</button></a>
