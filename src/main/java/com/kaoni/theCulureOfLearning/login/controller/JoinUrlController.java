@@ -11,20 +11,15 @@ import com.kaoni.theCulureOfLearning.login.service.MemberService;
 
 @Controller
 public class JoinUrlController {
-	
+
 	@Autowired
 	MemberService memberService;
-	
+
 	@RequestMapping(value = "/joinPage.do")
-	public String join(Member memberVo) {
-		System.out.println(memberVo);
-		
-//		int success = memberService.join(memberVo);
-		
-//		if (success == 1) {
-			return "successJoin";
-//		} else {
-//			return "failJoin";	
-//		}
+	public String join(HttpServletRequest request) {
+		memberService.join(request);
+
+		return "index";
+
 	}
 }

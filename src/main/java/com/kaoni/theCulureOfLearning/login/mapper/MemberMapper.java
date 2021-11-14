@@ -1,4 +1,10 @@
 package com.kaoni.theCulureOfLearning.login.mapper;
 
-public class MemberMapper {
+import org.apache.ibatis.annotations.Mapper;
+
+import com.kaoni.theCulureOfLearning.domain.Member;
+
+@Mapper
+public interface MemberMapper {
+	public void join(Member memberVo);
 }

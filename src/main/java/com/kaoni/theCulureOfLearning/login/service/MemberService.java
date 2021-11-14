@@ -2,10 +2,10 @@ package com.kaoni.theCulureOfLearning.login.service;
 
 import java.util.HashMap;
 
-
-import com.kaoni.theCulureOfLearning.domain.Member;
+import javax.servlet.http.HttpServletRequest;
 
 public interface MemberService {
-	public int join(Member memberVo);
+	public void join(HttpServletRequest request);
+
 	public HashMap<String, Object> login();
 }
