@@ -10,5 +10,4 @@ public class Member {
     public String pass;
     public String name;
     public Date joinDate;
-
 }
