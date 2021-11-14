@@ -1,12 +1,15 @@
 package com.kaoni.theCulureOfLearning.login.service;
 
 import java.util.HashMap;
+import org.springframework.stereotype.Service;
 
+@Service
 public class MemberServiceImpl implements MemberService{
 
 	@Override
-	public int join() {
-		// TODO Auto-generated method stub
+	public int join(String param) {
+		
+		
 		return 0;
 	}
 

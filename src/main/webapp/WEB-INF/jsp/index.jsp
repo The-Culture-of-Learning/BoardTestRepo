@@ -8,7 +8,7 @@
 </head>
 <body>
 <form action="loginPage.do">
-	ID :  <input name="id" "text"> </br>
+	ID :  <input name="id" type="text"> </br>
 	PW :  <input name="pw" type="password"> </br>	
 	<button type="submit" value="">로그인</button>
 </form>
