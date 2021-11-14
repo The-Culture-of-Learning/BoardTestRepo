@@ -42,5 +42,5 @@
 
 ### SourceTree
 
-![image-20211114145820381](/Users/Eisen/Documents/GitHub/BoardTestRepo/README.assets/image-20211114145820381.png)
+![image-20211114145820381](https://raw.githubusercontent.com/The-Culture-of-Learning/BoardTestRepo/master/README.assets/image-20211114145820381.png)
 
