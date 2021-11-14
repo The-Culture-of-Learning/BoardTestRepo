@@ -1,0 +1,9 @@
+create table member (
+    id char(30) primary key,
+    pass varchar(50),
+    name varchar(30),
+    join_date datetime
+);
+
+INSERT INTO MEMBER (id, pass, name, join_date, admin)
+VALUES ('admin', 111, 'admin', now(), 1);
