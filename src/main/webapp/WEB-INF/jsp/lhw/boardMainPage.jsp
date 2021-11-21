@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,21 +30,15 @@
       </tr>
     </thead>
     <tbody>
+    <c:forEach items="${list}" var="postList">
       <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>${postList.no}</td>
+        <td>${postList.title}</td>
+        <td>${postList.contents}</td>
+        <td>0</td>
+        <td>${postList.write_date}</td>
       </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
+      </c:forEach>
     </tbody>
   </table>
 

@@ -7,4 +7,9 @@
 		INSERT INTO LHWPOST (title, contents, write_date)
 		VALUES (#{title}, #{contents}, current_timestamp());
 	</insert>
+
+	<select id="selectPostList"
+		resultType="com.kaoni.theCulureOfLearning.domain.LhwPost">
+		SELECT * FROM LHWPOST;
+	</select>
 </mapper>
