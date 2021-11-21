@@ -1,9 +1,6 @@
 package com.kaoni.theCulureOfLearning.login.service;
 
-import java.sql.Date;
 import java.util.HashMap;
-
-import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,15 +15,7 @@ public class MemberServiceImpl implements MemberService {
 	MemberMapper memberMapper;
 
 	@Override
-	public void join(HttpServletRequest request) {
-		String id = request.getParameter("id");
-		String pw = request.getParameter("pw");
-		String name = request.getParameter("name");
-
-		Member memberVo = new Member();
-		memberVo.setId(id);
-		memberVo.setPass(pw);
-		memberVo.setName(name);
+	public void join(Member memberVo) {
 
 		memberMapper.join(memberVo);
 

@@ -6,4 +6,4 @@ create table member (
 );
 
 INSERT INTO MEMBER (id, pass, name, join_date)
-VALUES ('admin', 111, 'admin', now());
+VALUES (#{id}, #{pass}, #{name}, now());

@@ -12,6 +12,9 @@ To change this template use File | Settings | File Templates.
 </head>
 <body>
 <p> mainPage </p>
+<a href="/lhwBoardMainPage.do">이희원 게시판</a>
+<a href="/lhwBoardMainPage.do">김현정 게시판</a>
+<a href="/lhwBoardMainPage.do">김민재 게시판</a>
 
 </body>
 </html>
