@@ -27,7 +27,7 @@ public class LoginUrlController {
 	}
 
 	@RequestMapping(value = "loginPage.do")
-	public String login(HttpSession session, @RequestParam String id, @RequestParam String pass, Model model) {
+	public String login(@RequestParam String id, @RequestParam String pass, Model model) {
 
 		String loginCheck = memberService.loginCheck(id, pass);
 
