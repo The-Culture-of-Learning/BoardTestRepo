@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>게시물 작성</h1>
-	<form action=""> 
+	<form action="lhwBoardWritePost.do" method="post"> 
 		제목 : <input type="text" name="title"></br>
 		작성자 : </br>
 		내용 : <textarea rows="" cols="" name="contents"></textarea> </br></br>
