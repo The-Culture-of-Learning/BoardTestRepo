@@ -18,7 +18,36 @@
 <body>
 	<div class="cotainer">
 	<h1>lhw게시판</h1>
-	</div>
+	<table class="table table-dark">
+    <thead>
+      <tr>
+        <th>no</th>
+        <th>제목</th>
+        <th>내용</th>
+        <th>조회수</th>
+        <th>날짜</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+<button type="button"><a href="lhwBoardWritePage.do">게시글 작성</a></button>
 
 </body>
 </html>
