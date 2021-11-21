@@ -8,4 +8,6 @@ public interface MemberService {
 	public void join(Member request);
 
 	public HashMap<String, Object> login();
+
+	public String loginCheck(String id, String pass);
 }

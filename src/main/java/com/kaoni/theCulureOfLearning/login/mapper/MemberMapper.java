@@ -7,4 +7,6 @@ import com.kaoni.theCulureOfLearning.domain.Member;
 @Mapper
 public interface MemberMapper {
 	public void join(Member memberVo);
+	
+	public String loginCheck(String id,String pass);
 }

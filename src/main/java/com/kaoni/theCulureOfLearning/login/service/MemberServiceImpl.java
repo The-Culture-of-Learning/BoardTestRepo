@@ -22,6 +22,17 @@ public class MemberServiceImpl implements MemberService {
 	}
 
 	@Override
+	public String loginCheck(String id , String pass) {
+		String loginCheck = memberMapper.loginCheck(id, pass);
+		
+		if (loginCheck == null) {
+			loginCheck = "fail";
+		}
+		
+		return loginCheck;
+	}
+
+	@Override
 	public HashMap<String, Object> login() {
 		// TODO Auto-generated method stub
 		return null;

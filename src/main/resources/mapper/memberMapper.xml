@@ -6,4 +6,8 @@
 		INSERT INTO MEMBER (id, pass, name, join_date)
 		VALUES (#{id},#{pass},#{name},current_timestamp());
 	</insert>
+	
+	<select id="loginCheck" resultType="String">
+		SELECT NAME FROM MEMBER WHERE id=#{id} AND pass=#{pass};
+	</select>
 </mapper>
