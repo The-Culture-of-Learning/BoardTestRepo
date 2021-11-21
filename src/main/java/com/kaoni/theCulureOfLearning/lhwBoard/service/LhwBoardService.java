@@ -1,4 +1,4 @@
 package com.kaoni.theCulureOfLearning.lhwBoard.service;
 
-public interface TestService {
+public interface LhwBoardService {
 }
