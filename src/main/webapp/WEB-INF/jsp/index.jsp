@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="loginPage.do" method="post" >
+<form action="loginPage.do" method="post">
 	ID :  <input name="id" type="text"> </br>
 	PW :  <input name="pass" type="password"> </br>
 	<button type="submit" value="">로그인</button>

@@ -1,5 +1,6 @@
 package com.kaoni.theCulureOfLearning.domain;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.Data;
 
 import java.io.Serializable;
